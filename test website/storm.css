@@ -8,28 +8,32 @@ html {
 background-color:darkslategrey;
 color:antiquewhite;
 }
-img {
-border: 4px solid darkseagreen;
-}
 a {
 color:antiquewhite;
 text-decoration:none;    
 }
 div {
 display:inline-block;
+font-size:35px;
 }
 .container {
   display: flex;
 }
+
+.gif-container{
+  border: none;
+}
+
+.bordered-image{
+  border: 4px solid darkseagreen;
+}
+
 p {
 font-family:'IBM Plex Mono';  
 font-size:25px;
 font-style:bold;
 }
-div {
-display: inline-block;
-font-size:35px;    
-}
+
 h2 {
 border: 4px solid darkseagreen;  
 }
