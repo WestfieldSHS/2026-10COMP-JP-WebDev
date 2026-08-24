@@ -83,3 +83,8 @@ li{
     color:antiquewhite;
     text-align:center;
 }
+
+.thumbnailgrid {
+    object-fit:fill;
+    display:flex;   
+}
