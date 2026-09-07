@@ -58,6 +58,7 @@ li{
   padding: 14px 16px;
   list-style-type: none;
   background-color: #333333;
+  width:1870px;
 }
 
 .navbar ul li a{
@@ -82,9 +83,12 @@ li{
     background-color:#333333;
     color:antiquewhite;
     text-align:center;
+    border:none;
 }
 
 .thumbnailgrid {
-    object-fit:fill;
-    display:flex;   
+    display:grid;  
+    grid-template-columns: auto auto auto; 
+    object-fit: fill;
+    width: 800px;
 }
